@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: NotificationService
+
+server:
+  port: 8087
+

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: TranslationService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/translation_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 8085
+

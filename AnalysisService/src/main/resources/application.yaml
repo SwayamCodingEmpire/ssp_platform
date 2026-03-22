@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: AnalysisService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/analysis_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 8084
+

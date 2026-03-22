@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SubscriptionService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/subscription_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 8082
+
