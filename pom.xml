@@ -17,6 +17,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>CommonModule</module>
         <module>TranslationService</module>
         <module>AnalysisService</module>
         <module>CoachingService</module>
